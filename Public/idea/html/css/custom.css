@@ -1,0 +1,58 @@
+/*
+Theme Name: iDea - Clean & Powerful Bootstrap Theme
+Author: HtmlCoder
+Author URI: http://www.htmlcoder.me
+Author e-mail: htmlcoder.me@gmail.com
+Version: 1.2.0 
+Created: August 2014
+License URI: http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+.pro-title p{
+    padding:0;
+    margin:0;
+}
+
+.filter-p{
+    width:100%;
+}
+
+.filter-p ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.filter-p li{
+    border:1px solid #e0e0e0;
+    margin-top:-1px;
+}
+
+.filter-p li:nth-child(1){
+    margin-top:0;
+}
+
+.filter-p a{
+    display: block;
+    padding:10px 5px;
+    font-size:14px;
+    color:#333;
+    text-decoration:none;
+}
+
+.filter-p .active{
+    background:#eee;
+}
+
+.filter-p .active a{
+    color:#e84c3d;
+}
+
+.multiEllipsis1{
+    display:-webkit-box;-webkit-box-orient:horizontal;overflow:hidden;text-overflow: ellipsis;-webkit-line-clamp:1;-webkit-box-orient:vertical;
+}
+
+.multiEllipsis2{
+    display:-webkit-box;-webkit-box-orient:horizontal;overflow:hidden;text-overflow: ellipsis;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+}

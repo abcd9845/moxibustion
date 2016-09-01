@@ -1,0 +1,56 @@
+.imgStyle {
+  width: 150px;
+  height: 38px;
+  border: 0;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "b8bf53", sans-serif;
+}
+.body-bg {
+  background: url("../images/body-bg.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.logo {
+  background: url("../images/logo1.png") no-repeat 0 0;
+}
+.logo-h {
+  width: 186px;
+  height: 64px;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
+}
+.button-quan {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30%;
+}
+.icon-l {
+  background: url("../images/icon_qbxdj2.png") no-repeat 0.5rem 0;
+  padding: 0.2rem 0 0.5rem 2.8rem;
+  width: 150px;
+  height: 38px;
+  border: 0;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "b8bf53", sans-serif;
+}
+.icon-r {
+  background: url("../images/icon_stcg2.png") no-repeat -0.5rem 0;
+  padding: 0.2rem 2rem 0.5rem 0;
+  width: 150px;
+  height: 38px;
+  border: 0;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "b8bf53", sans-serif;
+}
+.div-l {
+  text-align: right;
+  padding-left: 0;
+}
+.div-r {
+  text-align: left;
+  padding-left: 0;
+}

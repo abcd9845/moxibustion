@@ -1,0 +1,121 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Microsoft Yahei';
+}
+
+.uk-navbar-nav li > a > .uk-badge {
+    font-size: 12px;
+    line-height: 16px;
+    min-width: 16px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.uk-navbar-brand {
+  background: url('../images/logo.png') center;
+  width: 154px;
+}
+
+.uk-navbar-content .uk-h2 {
+  line-height: 40px;
+}
+.uk-tab:not(.uk-tab-left):not(.uk-tab-right) {
+  height: 36px;
+}
+.nicescroll {
+  height: 150px;
+}
+.uk-nav-navbar.nicescroll li > a {
+  padding: 5px 15px;
+  min-height: 40px;
+}
+.uk-nav-navbar.nicescroll li > a span.time {
+  float: right;
+  font-size: 11px;
+}
+.uk-nav-navbar.nicescroll li > a img {
+    border-radius: 1px;
+    float: left !important;
+    margin-right: 10px;
+}
+.uk-nav-navbar.nicescroll li > a span {
+    display: block;
+}
+.uk-nav-navbar.nicescroll li span.msg {
+    color: #808080;
+}
+.os-page-container {
+  background: #e6e7e8;
+  padding: 0px;
+  margin:0px;
+}
+.os-page-container:before, .os-page-container:after {
+    content: " ";
+    display: table;
+}
+.os-page-container:after {
+    clear: both;
+}
+.os-sidebar {
+  float:left;
+  position:relative;
+  width: 200px;
+}
+.os-sidebar .uk-nav-side > li.uk-active {
+  border-right: 5px solid #1975C1
+}
+.os-sidebar .uk-nav-side li a {
+  padding: 5px 15px;
+}
+.os-sidebar .uk-nav-side > li ul.uk-nav-sub {
+  padding-top: 0px;
+}
+.os-sidebar .uk-nav-sub > li.uk-active a:after {
+  content: "\f111";
+  float: right;
+  font-family: FontAwesome;
+  font-size: 0.6em;
+  margin-right: -10px;
+  text-align: center;
+  width: 20px;
+}
+.os-sidebar .uk-nav-side ul a{
+  color: #444;
+  padding-left: 1.6em;
+}
+.os-sidebar-search {
+  margin-top: 10px;
+  padding:0px 15px;
+}
+
+.os-page-content {
+  background: #fff;
+  min-height: 650px;
+  border-left: 1px solid rgba(0,0,0,0.15);
+  padding: 10px 15px;
+  margin-left: 199px;
+}
+.os-table-list td {
+  vertical-align: middle;
+}
+
+.uk-button-inverse {background-color: #4a4d50;color: #fff;}
+.uk-button-inverse:hover,.uk-button-inverse:focus {background-color: #63676a;color: #fff;}
+.uk-button-inverse:active,.uk-button-inverse.uk-active {background-color: #313436;color: #fff;}
+
+.uk-button-brown {background-color: #905757;color: #fff;}
+.uk-button-brown:hover,.uk-button-brown:focus {background-color: #ac7676;color: #fff;}
+.uk-button-brown:active,.uk-button-brown.uk-active {background-color: #7e4c4c;color: #fff;}
+
+.uk-button-purple {background-color: #f063e3;color: #fff;}
+.uk-button-purple:hover,.uk-button-purple:focus {background-color: #f583e5;color: #fff;}
+.uk-button-purple:active,.uk-button-purple.uk-active {background-color: #df63d2;color: #fff;}
+
+.uk-button-skyblue {background-color: #436f9f;color: #fff;}
+.uk-button-skyblue:hover,.uk-button-skyblue:focus {background-color: #608cbc;color: #fff;}
+.uk-button-skyblue:active,.uk-button-skyblue.uk-active {background-color: #3b618c;color: #fff;}
+
+.uk-button-inverse, .uk-button-purple, .uk-button-brown,.uk-button-skyblue {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05) inset;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,229 @@
+.Blod {
+  font-weight: bold;
+}
+.YaHei_12 {
+  font-family: 'microsoft yahei';
+  font-size: 12px;
+}
+.YaHei_14 {
+  font-family: 'microsoft yahei';
+  font-size: 14px;
+}
+.YaHei_16 {
+  font-family: 'microsoft yahei';
+  font-size: 16px;
+}
+.YaHei_18 {
+  font-family: 'microsoft yahei';
+  font-size: 18px;
+}
+.YaHei_20 {
+  font-family: 'microsoft yahei';
+  font-size: 20px;
+}
+.HeiTi_12 {
+  font-family: '黑体';
+  font-size: 12px;
+}
+.HeiTi_14 {
+  font-family: '黑体';
+  font-size: 14px;
+}
+.HeiTi_16 {
+  font-family: '黑体';
+  font-size: 16px;
+}
+.HeiTi_18 {
+  font-family: '黑体';
+  font-size: 18px;
+}
+.HeiTi_20 {
+  font-family: '黑体';
+  font-size: 20px;
+}
+.red {
+  color: #e00404;
+}
+.darkred {
+  color: #aa1f1f;
+}
+.border {
+  -moz-box-shadow: 1px 2px 15px #999;
+  -webkit-box-shadow: 1px 2px 15px #999;
+  box-shadow: 1px 2px 15px #999;
+}
+.diyBtn {
+  padding: 20px 70px;
+  font-size: 24px;
+  letter-spacing: 15px;
+  font-family: '黑体';
+}
+.diyBtn2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: '黑体';
+  letter-spacing: 2px;
+}
+.minHeight {
+  min-height: 735px ;
+}
+.minHight140 {
+  min-height: 80px;
+}
+.line_through {
+  text-decoration: line-through;
+}
+.borderShadow {
+  -moz-box-shadow: 2px 2px 5px #969696;
+  /*firefox*/
+  -webkit-box-shadow: 2px 2px 5px #969696;
+  /*webkit*/
+  box-shadow: 2px 2px 5px #969696;
+  /*opera或ie9*/
+}
+.loginDiv {
+  position: absolute;
+  top: 5px;
+  right: 80px;
+  width: 300px;
+  height: 280px;
+  background: none repeat scroll 0 0 rgba(51, 51, 51, 0.7);
+  z-index: 9999;
+  border: 1px solid #686868;
+  overflow: hidden;
+}
+.main {
+  background: url(../images/main.png) no-repeat 0 0;
+  background-size: cover;
+  height: 500px;
+}
+.main .title {
+  font-family: '黑体';
+  font-size: 48px;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+  line-height: 300px;
+}
+.tip {
+  width: 360px;
+  height: 240px;
+  border-radius: 5px;
+  position: relative;
+  -moz-box-shadow: 1px 2px 15px #999;
+  -webkit-box-shadow: 1px 2px 15px #999;
+  box-shadow: 1px 2px 15px #999;
+}
+.tip .tip-bg {
+  font-family: '黑体';
+  font-size: 48px;
+  color: #303a40;
+  position: relative;
+  margin: 0 auto;
+  top: 60px;
+  width: 240px;
+  height: 80px;
+}
+.tip .tip-bg .opacity_5 {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  opacity: 0.5;
+  background: #FFF;
+  z-index: 999;
+  top: -80px;
+}
+.tip .tip-bg .content {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  z-index: 9999;
+  text-align: center;
+}
+.tip .tip-bottom {
+  font-family: '黑体';
+  font-size: 18px;
+  color: #FFF;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  top: 120px;
+}
+.tip .tip-bottom .opacity_5 {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  opacity: 0.5;
+  background: #303a40;
+  z-index: 999;
+  margin-top: -40px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.tip .tip-bottom .content {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  z-index: 9999;
+  text-align: center;
+}
+.tip .tip-bottom .opacity2 {
+  opacity: 0.2;
+}
+.tip .tip-bottom .opacity6 {
+  opacity: 0.6;
+}
+.tip.img1 {
+  background: url(../images/tip1.png) no-repeat 0 0;
+}
+.tip.img2 {
+  background: url(../images/tip2.png) no-repeat 0 0;
+}
+.tip.img3 {
+  background: url(../images/tip3.png) no-repeat 0 0;
+}
+.tip.img4 {
+  background: url(../images/tip4.png) no-repeat 0 0;
+}
+.productShow {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.productShow .label1 {
+  font-family: '黑体';
+  font-size: 36px;
+}
+.productShow .label2 {
+  font-family: Arial;
+  font-size: 60px;
+}
+.productShow .label3 {
+  font-family: '黑体';
+  font-size: 60px;
+}
+.productShow .productDiv {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  width: 500px;
+  height: 330px;
+}
+.productShow .title {
+  height: 163px;
+  background: url(../images/product-0-1.png) no-repeat -20px 0;
+}
+.productShow .content {
+  height: 237px;
+  background: url(../images/product-0-2.png) no-repeat -18px -125px;
+}
+.pay {
+  margin-top: 50px;
+  width: 100%;
+  height: 700px;
+  background: url(../images/zhifu.png) no-repeat 0 0;
+  background-size: cover;
+}

@@ -1,0 +1,40 @@
+.red {
+  color: #e00404;
+}
+.darkred {
+  color: #aa1f1f;
+}
+.border {
+  -moz-box-shadow: 1px 2px 15px #999;
+  -webkit-box-shadow: 1px 2px 15px #999;
+  box-shadow: 1px 2px 15px #999;
+}
+.diyBtn {
+  padding: 20px 70px;
+  font-size: 24px;
+  letter-spacing: 15px;
+  font-family: '黑体';
+}
+.diyBtn2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: '黑体';
+  letter-spacing: 2px;
+}
+.minHeight {
+  min-height: 735px ;
+}
+.minHight140 {
+  min-height: 80px;
+}
+.line_through {
+  text-decoration: line-through;
+}
+.borderShadow {
+  -moz-box-shadow: 2px 2px 5px #969696;
+  /*firefox*/
+  -webkit-box-shadow: 2px 2px 5px #969696;
+  /*webkit*/
+  box-shadow: 2px 2px 5px #969696;
+  /*opera或ie9*/
+}

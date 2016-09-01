@@ -1,0 +1,15 @@
+@BaseImgUrl:"../images/";
+
+
+.imgStyle{
+  width:150px;
+  height:38px;
+  border:0;
+  color:#FFF;
+  font-size:1.6rem;
+  font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","b8bf53",sans-serif;
+}
+
+.bgImg (@img,@tb:0,@lr:0) {
+  background: url("@{BaseImgUrl}@{img}") no-repeat @tb @lr;
+}
